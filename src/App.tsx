@@ -81,11 +81,9 @@ export default function App() {
         <section className="offers-section" aria-label="Ofertas">
           <div className="offer-list">
             {copy.offers.map((offer, index) => {
-              const [firstLine, secondLine] = offer.split('\\n')
               return (
-                <article className={`offer-card ${index === 1 ? 'featured' : ''}`} key={offer}>
-                  <p>{firstLine}</p>
-                  <strong>{secondLine}</strong>
+                <article className={`offer-card ${index === copy.offers.length - 1 ? 'featured' : ''}`} key={offer}>
+                  <p>{offer}</p>
                 </article>
               )
             })}
@@ -95,6 +93,7 @@ export default function App() {
 
         <section className="final-card" ref={finalCardRef}>
           <CtaLink />
+          <a className="support-url" href={supportUrl} target="_blank" rel="noopener noreferrer">{supportUrl}</a>
         </section>
       </div>
 

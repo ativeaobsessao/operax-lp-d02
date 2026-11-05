@@ -59,14 +59,14 @@ h1 { margin-bottom: 16px; font-size: clamp(30px, 8.1vw, 44px); line-height: .99;
 .offers-section > h2 { margin-bottom: 16px; font-size: 20px; line-height: 1.05; letter-spacing: -.045em; font-weight: 900; }
 .offer-list { display: grid; gap: 12px; }
 .offer-card { padding: 18px; }
-.offer-card p { margin-bottom: 5px; white-space: pre-line; color: #effff2; font-size: 15px; line-height: 1.1; font-weight: 800; }
-.offer-card strong { display: block; color: var(--accent); font-size: 20px; line-height: 1.1; font-weight: 900; white-space: pre-line; }
+.offer-card p { margin: 0; color: #effff2; font-size: 15px; line-height: 1.25; font-weight: 800; }
 .offer-card.featured { border-color: var(--accent); box-shadow: 0 0 24px rgba(67,255,99,.17); transform: scale(1.015); }
 .highlight-bar { display: flex; align-items: center; gap: 12px; margin: 17px 0 20px; padding: 15px 16px; border-left: 4px solid var(--accent); border-radius: 0 14px 14px 0; background: #071a0e; }
 .highlight-bar span { color: var(--accent); font-size: 27px; font-weight: 900; }
 .highlight-bar p { margin: 0; color: #eaffed; font-size: 12px; line-height: 1.35; font-weight: 800; }
 .final-card { margin-top: 22px; padding: 23px 18px 20px; text-align: center; border-color: rgba(67,255,99,.38); }
 .final-warning { margin-bottom: 18px; color: var(--accent); font-size: 17px; line-height: 1.2; font-weight: 900; }
+.support-url { display: block; margin-top: 14px; color: var(--muted); font-size: 10px; line-height: 1.35; overflow-wrap: anywhere; text-decoration: none; }
 .sticky-cta { position: fixed; z-index: 10; right: 0; bottom: 0; left: 0; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); background: linear-gradient(180deg, rgba(6,19,11,0), rgba(6,19,11,.96) 32%); }
 .sticky-cta .cta-button { min-height: 52px; margin: 0 auto; max-width: 480px; }
 

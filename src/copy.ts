@@ -11,8 +11,10 @@ export const copy = {
   guaranteeTitle: '🛡 GARANTIA EXCLUSIVA DA OPERAÇÃO:',
   guaranteeBody: 'Ou você lucra nessa operação, ou devolvemos 100% do seu dinheiro investido. O risco é todo nosso.',
   offers: [
-    '💵 DEPÓSITOS DE R\n 500 → Retorno de até 130%',
-    '🤑 DEPÓSITOS DE R\n 1.000 → Retorno de até 250%',
+    '💵 DEPÓSITOS DE R$ 300 → Retorno de até 100%',
+    '💸 DEPÓSITOS DE R$ 500 → Retorno de até 130%',
+    '🤑 DEPÓSITOS DE R$ 750 → Retorno de até 150%',
+    '💰 DEPÓSITOS DE R$ 1.000 → Retorno de até 250%',
   ],
   warning: '⚠️ Não haverá segunda chance nessa operação.',
   cta: '➡️ CLIQUE AQUI PARA ENVIAR O COMPROVANTE 👇',
