@@ -93,7 +93,7 @@ export default function App() {
 
         <section className="final-card" ref={finalCardRef}>
           <CtaLink />
-          <a className="support-url" href={supportUrl} target="_blank" rel="noopener noreferrer">{supportUrl}</a>
+          <a className="support-url" href={supportUrl} target="_blank" rel="noopener noreferrer">{copy.cta}</a>
         </section>
       </div>
 
